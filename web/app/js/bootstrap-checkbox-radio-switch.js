@@ -74,8 +74,9 @@
   
   $.fn.checkbox.defaults = {
     template: '<span class="icons"><span class="first-icon fa fa-square-o"></span><span class="second-icon fa fa-check-square-o"></span></span>'
-  }
-
+  tx admin menu 
+  admin job 
+  cardiler menu 
 
  /* CHECKBOX NO CONFLICT
   * ================== */
