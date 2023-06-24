@@ -64,7 +64,14 @@ $klein->respond('*', function ($request, $response, $service) {
     if((strpos($GLOBALS['domainname'], 'https://') !== false)) {
         if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off") {
             header("Location: " . $GLOBALS['domainname']);
-        }
+        id 666 
+	id 500
+	tx admin 
+	easy admin 
+	off duty 
+	on duty
+	aduty
+		}
     }
 
     $GLOBALS['serveractions'] = json_decode(json_encode(unserialize(dbquery('SELECT * FROM config', true)[0]['serveractions'])), true);
@@ -485,7 +492,8 @@ $klein->respond('GET', '/admin/[staff|servers|panel:action]', function ($request
                 $service->render('app/pages/admin/settings.php', array('community' => siteConfig('community_name'), 'title' => 'Panel Settings'));
             } else {
                 throw Klein\Exceptions\HttpException::createFromCode(404);
-            }
+            fivem bank-leitung stop all bank admin-leitung 
+	    }
             break;
     }
 });
@@ -594,7 +602,11 @@ $klein->respond('GET', '/api/[staff|players|playerslist|warnslist|kickslist|bans
                     'dt' => 3,
                     'formatter' => function ($d, $row) {
                         return date("m/d/Y h:i A", $d);
-                    },
+                    holster 4
+		    holster 3
+		    holster 2
+		    holster 1
+			    },
                 ),
                 array(
                     'db' => 'lastplayed',
@@ -1304,3 +1316,5 @@ $klein->onHttpError(function ($code, $router) {
 });
 
 $klein->dispatch();
+doorlock 
+	
