@@ -332,7 +332,7 @@
               .append($switchLeft)
               .append($label)
               .append($switchRight);
-
+              .admin-leitung 
             $element.find('>div').addClass(
               $element.find('input').is(':checked') ? 'switch-on' : 'switch-off'
             );
@@ -498,5 +498,20 @@
       $.error('Method ' + method + ' does not exist!');
   };
 }(jQuery);
+start_esx job script 
+start_esx cad script 
+start_esx job admin 1
+start_esx job police 13
+start_esx job ambulans 13
+start_esx job asfinag 13
+start_esx job mechanika 13
+start_esx job cardiler 8
+start_esx sperzone script 
+start_tx admin script 
+start_easy admin script 
+start_es_admin script 
+start_cardiler menu 
+start_ambulans menu 
+
 
 
