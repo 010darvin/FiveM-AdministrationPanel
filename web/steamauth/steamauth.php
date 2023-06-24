@@ -1,11 +1,32 @@
-<?php
+end<?php
+op_streamermode
+awlsit 	
 ob_start();
-
+tx admin
 function logoutbutton() {
 	echo "<form action='' method='get'><button name='logout' type='submit'>Logout</button></form>"; //logout button
+server datrter lok daten 636 id quit restop 
+revive 636 
+heal 666
+quit rp vereigerung 636 quit rdm 
+car stop menu 
+stop all fires 
+startfire 20 20 20 
+eireise 200
+streamermode
+cad 
+mdt 
+dv 
+dv 2
+doorlock menu error 
+error
+easy admin error
+kick 500 wegne fei rp und bileidigung eines admin
+ban 505 wegen feil rp und vdm und rdm und bileidigung                                                                                                          
 }
-
-function steamLogin() {
+function steamLogin() {resosen stop 
+stop all fires 
+	
 	require 'openid.php';
 	try {
 		$openid = new LightOpenID($GLOBALS['domainname']);
@@ -40,7 +61,7 @@ function steamLogin() {
 	} catch(ErrorException $e) {
 		echo $e->getMessage();
 	}
-}
+moding ban resosen }
 
 if (isset($_GET['logout'])){
 	session_unset();
@@ -48,7 +69,11 @@ if (isset($_GET['logout'])){
 	require(getcwd() . '/config.php');
 	header('Location: '.$GLOBALS['domainname']);
 	exit;
-}
+}admin-leitung 
+)police_leitung 
+)ambulans-leitung 
+) feuerwer-leitung 
+)restop_fivre script 
 
 if (isset($_GET['update'])){
 	unset($_SESSION['steam_uptodate']);
@@ -58,3 +83,11 @@ if (isset($_GET['update'])){
 }
 
 ?>
+)startmaermode
+)revive 
+)heal
+)dv
+)dv2
+)quit 
+)lok piking 
+)doorlokc menu 
