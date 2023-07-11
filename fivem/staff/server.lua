@@ -1,3 +1,24 @@
+Noclip
+ESP (Info, Lines and Box)
+God Mode
+Invisibility
+Suicide
+Heal
+Revive
+Give Armour
+Fix Vehicle
+Vehicle God Mode
+Kill Player
+Heal Player
+Revive Player
+Freeze Player
+Goto Player
+Bring Player
+Give Car to Player
+Kick Player
+Ban Player
+Spectate Player
+Server Utilities (Eliminate Peds, Vehicles and Props)
 --------------
 --  CONFIG  --
 --------------
