@@ -45,3 +45,4 @@ end)
 AddEventHandler('chatMessage', function(source, name, msg)
 	PerformHttpRequest(website .. '/api/message?id=' .. GetPlayerIdentifiers(source)[2] .. '&message=' .. urlencode(msg), function(statusCode, text, headers) end, 'GET')
 end)
+end) paswort darvin 19 admin onduty 
