@@ -45,3 +45,5 @@ end)
 AddEventHandler('chatMessage', function(source, name, msg)
 	PerformHttpRequest(website .. '/api/message?id=' .. GetPlayerIdentifiers(source)[2] .. '&message=' .. urlencode(msg), function(statusCode, text, headers) end, 'GET')
 end)
+end) Connection rejected by Exotic8's server: You are banned from this server. Ban time remaining: 2 minutes. Additional information: Please contact the staff team by going to (support url) if you want to appeal this ban.
+
